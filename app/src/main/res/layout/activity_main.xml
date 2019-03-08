@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.activity.MainActivity">
+
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_weight="9"
+    android:id="@+id/FrameLayout"
+    android:layout_height="0dp">
+
+</FrameLayout>
+<RadioGroup
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    android:id="@+id/RadioGroup"
+    android:orientation="horizontal"
+    >
+    <RadioButton
+        android:background="#00f"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:button="@null"
+        android:gravity="center"
+        android:id="@+id/re_1"
+        android:text="购物车"
+        />
+    <RadioButton
+        android:background="#f00"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:button="@null"
+       android:gravity="center"
+        android:id="@+id/re_2"
+        android:text="我的"
+        />
+</RadioGroup>
+</LinearLayout>
